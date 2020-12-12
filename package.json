@@ -1,0 +1,35 @@
+{
+  "name": "N_A_M_E",
+  "version": "0.0.3",
+  "description": "Script",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js",
+    "watch": "webpack --watch --info-verbosity verbose --mode development --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Werdffelynir/N_A_M_E.git"
+  },
+  "keywords": [
+    "animate",
+    "modules"
+  ],
+  "author": "Werdffelynir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Werdffelynir/N_A_M_E/issues"
+  },
+  "homepage": "https://github.com/Werdffelynir/N_A_M_E#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "path": "^0.12.7",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {}
+}
